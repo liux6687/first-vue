@@ -1,0 +1,80 @@
+<view class="about">
+    <view class='bgtop'></view>
+    <view class='content'>
+        <view class='group'>
+            <view class='Introduction'>
+                <view class='Introduction_top clearflx'>
+                    <view class='img_box'>
+                        <image src='http://www.xinzhenjixie.com/CN/101.jpg'></image>
+                    </view>
+                    <view class='h1'>天津新振机械有限公司</view>
+                </view>
+
+                <view class='Introduction_bottom'>
+                    <text>天津市静海区良王庄乡良一村</text>
+                </view>
+            </view>
+        </view>
+
+
+        <view class='group'>
+            <view bindtap='gotoPhotos' class='menu_item'>
+                <view class='title'><text class='line'></text>店铺展示</view>
+                <image class="move" src="/images/right.png"></image>
+            </view>
+            <view class='photos clearflx'>
+                <view class='photos_item'>
+                    <image src='http://www.xinzhenjixie.com/CN/101.jpg'></image>
+                </view>
+                <view class='photos_item'>
+                    <image src='http://www.xinzhenjixie.com/CN/101.jpg'></image>
+                </view>
+            </view>
+        </view>
+
+        <view  class='group'>
+            <view class='menu_item'>
+                <view class='title'><text class='line'></text>客服</view>
+                <image class="move" src="/images/right.png"></image>
+            </view>
+            <view class='menu_item' bindtap='phone'>
+                <view class='title'><text class='line'></text>电话</view>
+                <image class="move" src="/images/right.png"></image>
+            </view>
+            <view bindtap='gotoContact' class='menu_item'>
+                <view class='title'><text class='line'></text>地址</view>
+                <text class="text">天津市静海区良王庄乡良一村</text>
+                <image class="move" src="/images/right.png"></image>
+            </view>
+            <view class='menu_item' bindtap="gotoPhotos" bindtap='phone'>
+                <view class='title'><text class='line'></text>招商加盟</view>
+                <image class="move" src="/images/right.png"></image>
+            </view>
+        </view>
+
+        <view class='group'>
+            <view class='menu_item'>
+                <view class='title'><text class='line'></text>公司服务</view>
+            </view>
+            <view class='service_list clearflx'>
+                <view wx:for="{{service_list}}" wx:key="this" class='service_li'>{{item}}</view>
+            </view>
+        </view>
+
+
+        <view class='group'>
+            <view class='menu_item'>
+                <view class='title'><text class='line'></text>公司简介</view>
+            </view>
+            <view class='profile'>
+                <view bindtap="gotoPhotos" class="profile_text">
+                全国小型轮式挖掘机生产地天津市静海县良王庄新振机械挖掘机1995年发展以来，一直以诚信发展创新服务的企业宗旨，以满足顾客要求为目的，以质量稳定可靠为基础，以优质服务，技术创新为保障。受到国内外客户一致好评！
+                 </view>
+                <image src='http://www.xinzhenjixie.com/CN/101.jpg'></image>
+                <image src='http://www.xinzhenjixie.com/CN/101.jpg'></image>
+            </view>
+        </view>
+
+
+    </view>
+</view>

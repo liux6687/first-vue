@@ -1,0 +1,106 @@
+.about {
+    position: relative;
+    font-size: 32rpx;
+}
+.group {
+    background: #fff;
+    border-radius: 10rpx;
+    padding: 0 20rpx;
+    margin-bottom: 20rpx;
+}
+
+.bgtop {
+    width: 100%;
+    height: 120rpx;
+    background: blue;
+    position: absolute;
+    top: 0;
+    z-index: -10;
+}
+
+.content {
+    padding: 0 38rpx;
+}
+.menu_item {
+    padding: 20rpx;
+}
+.menu_item:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+
+.title {
+    float: left;
+}
+.move {
+    float: right;
+    display: inline-block;
+    width: 30rpx;
+    height: 30rpx;
+    position: relative;
+    top: 5rpx;
+}
+.text {
+    margin-left: 16rpx;
+}
+.line {
+    display: inline-block;
+    width: 4rpx;
+    background: blue;
+    height: 30rpx;
+    position: relative;
+    left: -10rpx;
+}
+
+
+
+.img_box {
+    float: left;
+    width: 100rpx;
+    height: 100rpx;
+}
+.h1 {
+    float: left;
+    padding: 10rpx 20rpx;
+}
+.Introduction_bottom {
+    padding: 40rpx 0;
+    font-size: 16px;
+    color: #999;
+}
+
+
+.photos_item {
+    height: 250rpx;
+    width: 48%;
+    float: left;
+}
+.photos_item:nth-of-type(odd) {
+    margin-right: 2%;
+}
+.photos_item:nth-of-type(even) {
+    margin-left: 2%;
+}
+
+
+
+/* 公司服务 */
+
+.service_li {
+    float: left;
+    color: blue;
+    background: lightblue;
+    padding: 5rpx 8rpx;
+    margin-left: 8rpx;
+    margin: 0 8rpx 8rpx 0;
+}
+
+/* 公司简介 */ 
+.profile {
+    padding: 20rpx 0;
+}
+.profile .profile_text {
+    text-indent: 2em;
+    height: 300rpx;
+}
+.profile image {
+    display: inline-block;
+    height: 500rpx;
+}

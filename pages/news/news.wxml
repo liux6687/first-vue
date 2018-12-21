@@ -1,0 +1,6 @@
+<view class="news">
+	<view class="title">越野行驶时应注意的问题</view>
+	<view>
+		{{str}}
+	</view>
+</view>

@@ -1,0 +1,18 @@
+<view class="cust">
+    <view class='top'>
+        <button></button>
+    </view>
+    <view class='list'>
+        <view wx:for="{{custList}}" bindtap='click' data-id='{{index}}' wx:key="this" class='group'>
+            <view class='icon_box'>
+                <view class='icon'>
+                    <image class='icon_img' src='{{item.icon}}'></image>
+                </view>
+            </view>
+            <view class='text_box'>
+                <text class='text'>{{item.text}}</text>
+                <text class='text_right'>{{item.text_right}}</text>
+            </view>
+        </view>
+    </view>
+</view>

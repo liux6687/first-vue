@@ -1,0 +1,97 @@
+/* pages/home/home.wxss */
+.logo {
+    text-align: center;
+    background-color: #fff;
+}
+.logo .logo_text {
+    display: inline-block;
+    color: red;
+    border-bottom: 1px solid #999;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 60rpx;
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text;
+    color: transparent;
+    padding: 0 20rpx;
+}
+.news {
+    display: flex;
+    background: #fff;
+}
+.news .news_title {
+    width: 200rpx;
+    text-align: center;
+    background: yellow;
+    height: 50rpx;
+    padding: 20rpx 0;
+    border: 2rpx solid yellow; 
+}
+.news .news_box {
+    height: 50rpx;
+    flex: 1;
+    color: red;
+    padding: 20rpx 0; 
+    padding-right: 40rpx;
+}
+.news .news_box .news_item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 39rpx;
+}
+.js_img_box {
+    height: 300rpx;
+}
+
+.products_title {
+    height: 100rpx;
+    background: #fff;
+    padding: 20rpx;
+    text-align: center;
+    
+}
+.products_title text {
+    color: red;
+    line-height: 50px;
+    padding: 20rpx 120rpx;
+    border: 1px solid red;
+    font-weight: bold;
+}
+
+.ul {
+    overflow: hidden;
+}
+.li {
+    width: 48%;
+    float: left;
+    background: #fff;
+    margin-bottom: 20rpx;
+    color: green;
+}
+
+.ul .li:nth-child(odd) {
+    
+    margin-right: 1%;
+} 
+.ul .li:nth-child(even) {
+    margin-left: 1%;
+}
+
+.li_top {
+    height: 300rpx;
+}
+.li_bottom {
+    height: 100rpx;
+    line-height: 100rpx;
+    padding-left: 18rpx;
+}
+.swiperBox {
+    height: 450rpx;
+}
+
+.h2 {
+    padding: 20rpx 10rpx;
+    border-bottom: 1px solid #999;
+    color: green;
+}

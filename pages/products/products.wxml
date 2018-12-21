@@ -1,0 +1,29 @@
+<view class="product">
+   <view class='top'>
+        <view class='search_box'>
+            <view class='group'>
+                    <icon class='search_icon' size='25' type='search'></icon>
+                    <input class='search' type='text' placeholder='输入搜索'></input>
+                    <view class='search_button'>搜索</view>
+            </view>
+        </view>
+   </view>
+   <view class='bottom'>
+        <view class='nav'>
+            <view bindtap='navClick' data-index='{{index}}' wx:for="{{products}}" wx:key="this" class='nav_li {{selected==index ? "active" : ""}}'>{{item.title}}</view>
+        </view>
+        <view class='content'>
+            <scroll-view scroll-with-animation="true" scroll-into-view="{{'class' + selected}}" scroll-y style='height: {{scrollViewheight}}px;' class='porduct_list'>
+                <view wx:for="{{products}}" id="{{'class' + idx}}" wx:for-index="idx" wx:for-item="li" wx:key="this">
+                    <view class="title">{{li.title}}</view>
+                    <view wx:for="{{li.list}}" bindtap="gotoProductsInfo" data-index="{{index}}" data-type="{{idx}}" wx:key="this" class='item'>
+                        <view class='img_box'>
+                            <image src="{{item.imgUrl}}"></image>
+                        </view>
+                        <view class="text">{{item.text}}</view>
+                    </view>
+                </view>
+            </scroll-view>
+        </view>
+    </view>
+</view>

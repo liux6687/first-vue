@@ -1,0 +1,30 @@
+<view class="ProductsInfo">
+	<swiper interval="2000" circular autoplay class="swiperBox">
+		<swiper-item wx:for="{{productsObj.bannerList}}" wx:key="this" wx:for-item="i" wx:for-index="idx">
+			<image src="{{i}}"></image>
+		</swiper-item>
+	</swiper>
+	<view class="detail">
+		{{productsObj.text}}
+	</view>
+	<view class="bottom">
+		<view class="time">
+			<view class="title">工作时间</view>
+			<text>
+				全年无休\n二十四小时竭诚为您服务\n联系电话：13911004538
+			</text>
+		</view>
+		<view class="about_send">
+			<view class="title">关于发货</view>
+			<view style="text-indent: 2em">
+				哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈vIE我哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈vIE我哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈vIE我哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈vIE我哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈vIE我
+			</view>
+		</view>
+		<view class="about_agterSales">
+			<view class="title">关于售后</view>
+			<view style="text-indent: 2em">
+				哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈vIE我哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈vIE我哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈vIE我哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈vIE我哈哈哈哈哈哈哈啊哈哈哈哈哈哈哈哈哈哈哈哈哈vIE我
+			</view>
+		</view>
+	</view>
+</view>

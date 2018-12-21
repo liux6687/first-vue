@@ -1,0 +1,41 @@
+.CompanyDetails .text_box {
+	height: 400rpx;
+}
+.CompanyDetails .text {
+	text-indent:40px;
+	font-size: 32rpx;
+	padding: 0 20rpx;
+}
+.CompanyDetails .photos {
+	
+}
+.CompanyDetails .photos .list .li {
+	float: left;
+	width: 33.3%;
+	font-size: 24rpx;
+	text-align: center;
+}
+.CompanyDetails .photos .list .li image {
+	display: block;
+	width: 200rpx;
+	height: 200rpx;
+	margin: 0 auto;
+}
+.CompanyDetails .join {
+	
+}
+.CompanyDetails .join .join_img {
+	display: block;
+	height: 400rpx;
+}
+
+/*通用*/
+.group {
+	background: #fff;
+	margin-bottom: 20rpx;
+}
+.CompanyDetails .h2 {
+	padding: 20rpx 10rpx;
+	border-bottom: 1px solid #999;
+	margin-bottom: 10rpx;
+}

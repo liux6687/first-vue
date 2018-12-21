@@ -1,0 +1,30 @@
+<view class="CompanyDetails">
+	<view class="top group">
+		<view class="h2">公司简介</view>
+		<scroll-view scroll-y class="text_box">
+			<view class="text">
+				全国小型轮式挖掘机生产地天津市静海县良王庄新振机械挖掘机1995年发展以来，一直以诚信发展创新服务的企业宗旨，以满足顾客要求为目的，以质量稳定可靠为基础，以优质服务，技术创新为保障。受到国内外客户一致好评！
+			</view>
+			<view class="text">
+				专业生产各种型号180度小型农用挖掘机产品为主有：小型液压挖掘机：XZ-30轮式挖掘机，XZ-50轮式挖掘机，XZ-60轮式挖掘机，XZ-70轮式挖掘机，XZ-80DF轮式挖掘机，小型180度旋挖机，180度螺旋打桩机，榨泡菜挖掘机，泡菜起池机，铁路卸煤机 火车卸煤机 火车皮卸煤挖掘机,夹树挖掘机，装载机，液压配件,小型挖沟机,小型挖土机，轮式抓皮机，轮式抓草机，轮式抓铁机，轮式抓铜机，卸煤机，清理下水道挖掘机，船用扒泥机，挖山药挖掘机，360度液压抓斗挖掘机，破碎锤挖掘机以及XZ-70型,80型等小型农用液压挖掘机深度2.7-3.5米，装载高度3-6米，日挖土，沙300立方米以上，有良好的质量完善的售后服务，是您走向致富的一条新路。 小型挖掘机是博才众长，经过潜心研究，自我设计，全新生产的新一代系列产品，是经国家机械工业部检测和国家挖掘机协会认定的挖掘机家族中的新成员。 为满足广大用户的各种需求，我公司产品在技术上进一步加以提高，在性能上加以改进，具有结构紧凑、动力匹配得当、配件供应方便、性能可靠、维修方便、使用寿命长等特点，确保用户选购到最满意的产品。
+			</view>
+		</scroll-view>
+	</view>
+	<view class="photos group">
+		<view class="h2">公司照片</view>
+		<view class="list clearflx">
+			<view wx:for="{{photos}}" wx:key="this" class="li">
+				<image src="{{item.imgUrl}}"></image>
+				<text>{{item.text}}</text>
+			</view>
+		</view>
+	</view>
+	<view class="join group">
+		<view class="h2">招商代理</view>
+		<view>诚征全国各地经销商，欢迎有意者与我公司联系。</view>
+		<view>咨询电话：022-68120785 </view>
+		<view>
+			<image class="join_img" src="../../images/join.jpg"></image>
+		</view>
+	</view>
+</view>

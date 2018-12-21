@@ -1,0 +1,44 @@
+.cust {
+    padding: 40rpx 30rpx;
+    font-size: 24rpx;
+}
+.group {
+    background: #fff;
+    border: 4rpx solid red;
+    display: flex;
+    height: 80rpx;
+    color: #999;
+    margin-bottom: 20rpx;
+}
+.group .icon_box {
+    width: 80rpx;
+    height: 100%;
+    background: red;
+}
+.group .icon_box .icon {
+    width: 40rpx;
+    height: 40rpx;
+    border: 4rpx solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 15rpx;
+}
+.icon_img {
+    width: 80%;
+    height: 80%;
+}
+
+.group .text_box {
+    flex: 1; 
+    line-height: 80rpx;
+}
+.group .text_box .text {
+    margin-left: 20rpx;
+    float: left;
+}
+.group .text_box .text_right {
+    float: right;
+}

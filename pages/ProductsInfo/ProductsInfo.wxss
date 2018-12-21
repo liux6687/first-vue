@@ -1,0 +1,22 @@
+.ProductsInfo {
+	background: #fff;
+}
+.swiperBox {
+	border-bottom: 1px solid #999;
+}
+.detail {
+	padding: 24rpx;
+	border-bottom: 1px solid #999;
+	color: red;
+}
+.bottom {
+	padding: 0 40rpx 40rpx;
+}
+.bottom .title {
+	display: inline-block;
+	padding: 10rpx 15rpx;
+	border: 2rpx solid green;
+	color: green;
+	margin-bottom: 16rpx;
+	margin-top: 30rpx;
+}
